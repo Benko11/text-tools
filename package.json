@@ -1,0 +1,20 @@
+{
+    "name": "text-tools",
+    "version": "1.0.0",
+    "description": "This little project attempts to replicate the `Text Tools` feature found on [keybr.com](https://www.keybr.com/).",
+    "main": "script.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Benko11/text-tools.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Benko11/text-tools/issues"
+    },
+    "homepage": "https://github.com/Benko11/text-tools#readme"
+}
