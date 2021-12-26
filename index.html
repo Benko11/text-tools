@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Tools</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <textarea class="user-text"></textarea>
+
+        <div>
+            <p>
+                Characters without whitespace:
+                <span class="figure" id="char-nowhitespace">0</span>
+            </p>
+            <p>
+                Characters with whitespace:
+                <span class="figure" id="char-all">0</span>
+            </p>
+            <p>
+                All words:
+                <span class="figure" id="word-all">0</span>
+            </p>
+            <p>
+                Unique words:
+                <span class="figure" id="word-unique">0</span>
+            </p>
+            <p>
+                Average word length:
+                <span class="figure" id="avg-word-length">0</span>
+            </p>
+            <p>
+                Most common words:
+                <div class="words"></div>
+            </p>
+        </div>
+
+        <template id="word-item">
+            <li class="frequent-item">
+                <div class="frequent-value"></div>
+                <div class="frequent-count figure"></div>
+            </li>
+        </template>
+    </body>
+</html>

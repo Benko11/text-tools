@@ -1,0 +1,50 @@
+:root {
+    --fonts-text: "Varela", sans-serif;
+    --fonts: "SF Mono", monospace;
+    --fg: rgba(255, 255, 255, 0.95);
+}
+
+body {
+    background: #0c0c47;
+    color: var(--fg);
+    font-family: var(--fonts-text);
+}
+
+textarea {
+    background: #060621;
+    border: none;
+    resize: none;
+    width: 70vw;
+    height: 50vh;
+    outline: none;
+    color: var(--fg);
+    font-family: var(--fonts);
+    padding: 0.5rem 1rem;
+    line-height: 150%;
+}
+
+textarea:focus {
+    background: #010105;
+}
+
+.figure {
+    font-family: var(--fonts);
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.frequent-item {
+    line-height: 150%;
+    margin-left: 5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.frequent-value {
+    font-style: italic;
+    font-family: var(--fonts);
+}
